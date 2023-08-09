@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Preahvihear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <audio id="tah_audio" src="music.mp3" loop="loop"></audio>
+    <nav>
+        <div id="navbar">
+            <h1 id="headText">TicTacToe ;)</h1>  
+        </div>
+    </nav>
+    <div id="main">
+        <div id="board">
+            <div id="1" class="box"></div>
+            <div id="2" class="box"></div>
+            <div id="3" class="box"></div>
+            <div id="4" class="box"></div>
+            <div id="5" class="box"></div>
+            <div id="6" class="box"></div>
+            <div id="7" class="box"></div>
+            <div id="8" class="box"></div>
+            <div id="9" class="box"></div>
+        </div>
+        <div id="other">
+            <div id="welcome">
+                <h2>Welcome to Tic Tac Toe</h2>
+            </div>
+            <div id="info">
+                <div id="turnDiv"><span id="player">X</span>'s Turn</div>
+                <div id="resetButton">Reset</div>
+            </div>
+            <div class="winner">
+                <img src="excited.gif" id="winnerImg"/>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
